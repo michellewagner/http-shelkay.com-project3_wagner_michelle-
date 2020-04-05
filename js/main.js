@@ -1,3 +1,6 @@
+
+ // Facts Page Blur Plug In
+
 var $container	= $('#ib-container'),
 	$articles	= $container.children('article'),
 	timeout;
