@@ -12,22 +12,23 @@
 
 /* end sticky footer */
 
-.crafts {
-  display:flex;
-  justify-content: flex-start;
+.crafts  {
+  display:inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 
-.crafts {
+.crafts  {
   background-color: black;
   opacity: 65%;
   width: 40%;
   color: white;
   font-size: 1.5em;
   margin: 2%;
+  padding: 0%;
 }
+
 
 .container {
   display: flex;
@@ -98,9 +99,7 @@ flex-flow: wrap;
 align-content: center;
 }
 
-.flexbox figure {
 
-}
 
 .wings1 {
  padding-top: 4%;
@@ -209,7 +208,7 @@ body {
     margin: 0;
   font-family: 'ZCOOL XiaoWei', serif;
 }
-
+/*Start Pure CSS SIDEBAR TOGGLE MENU */
 .header {
     display: block;
     margin: 0 auto;
@@ -1024,7 +1023,6 @@ h2, h1 {
 
   .ib-container article{
   	width: 30%;
-
 }
 
 .ib-container {
@@ -1034,8 +1032,13 @@ h2, h1 {
 }
 
 .crafts {
-  width: 40%;
+display:inline-flex;
+justify-content: flex-end;
+flex-flow: column wrap;
+flex: 300px;
+width: 40%;
 }
+
 h2, h1 {
   font-size: 8em;
   padding-top: 1%;
@@ -1072,6 +1075,13 @@ h2, h1 {
   .ib-container article{
   	width: 20%;
 }
+
+.crafts section {
+  display:flex;
+  flex-flow: column wrap;
+  width: 50%;
+}
+
 }
 
 @media (min-width: 1660px) {

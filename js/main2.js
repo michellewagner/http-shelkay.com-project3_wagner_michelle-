@@ -17,4 +17,4 @@ $. backstretch([
   "images/gallery15.jpg",
   "images/gallery16.jpg",
   "images/gallery17.jpg"
-], {duration: 4000, transitionDuration: "fade"});
+], {duration: 4000, transitionDuration: 1000, animateFirst: false});
