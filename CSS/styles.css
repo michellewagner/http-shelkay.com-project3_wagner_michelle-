@@ -29,7 +29,6 @@
   padding: 0%;
 }
 
-
 .container {
   display: flex;
   justify-content: space-between;
@@ -99,9 +98,20 @@ flex-flow: wrap;
 align-content: center;
 }
 
-
+.wings {
+  position: absolute;
+  top: 1;
+  right: 0;
+  padding: 1%;
+  margin-right: 20%;
+}
 
 .wings1 {
+  position: absolute;
+  right: 0;
+  top: 70%;
+  margin-right: 12%;
+
  padding-top: 4%;
  padding-right: 10%;
 }
@@ -208,7 +218,7 @@ body {
     margin: 0;
   font-family: 'ZCOOL XiaoWei', serif;
 }
-/*Start Pure CSS SIDEBAR TOGGLE MENU */
+
 .header {
     display: block;
     margin: 0 auto;
@@ -365,7 +375,6 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 /* START ANIMATED CSS3 NAVIGATION MENUS*/
 .ca-menu{
     padding:0;
-    margin:20px auto;
     width: 500px;
 }
 .ca-menu li{
